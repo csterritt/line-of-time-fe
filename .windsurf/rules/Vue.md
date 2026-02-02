@@ -14,7 +14,7 @@ Built with Vue 3 using Composition API and following Vue's best practices and co
 
 ### Frontend Architecture
 
-- Use Composition API with `<script setup>`
+- Use Composition API with `<script setup lang="ts">`
 - Follow feature-based directory structure:
   - `src/features/[feature-name]/`
     - components/
