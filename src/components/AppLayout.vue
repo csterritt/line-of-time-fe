@@ -1,26 +1,23 @@
 <script setup lang="ts">
 defineProps<{
-  message?: string
-  error?: string
-}>()
+  message?: string;
+  error?: string;
+}>();
 </script>
 
 <template>
   <div class="min-h-screen flex flex-col">
     <div class="navbar bg-base-100 shadow-lg">
       <div class="navbar-start">
-        <a href="/" class="btn btn-ghost text-xl" data-testid="home-action">
+        <RouterLink to="/" class="btn btn-ghost text-xl" data-testid="home-action">
           Line of Time project
-        </a>
+        </RouterLink>
       </div>
+
       <div class="navbar-end flex items-center">
-        <a
-          href="/ui/about"
-          class="btn btn-outline btn-sm"
-          data-testid="about-action"
-        >
+        <RouterLink to="/about" class="btn btn-outline btn-sm" data-testid="about-action">
           About
-        </a>
+        </RouterLink>
       </div>
     </div>
 
