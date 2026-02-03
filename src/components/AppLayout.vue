@@ -9,7 +9,7 @@ defineProps<{
   <div class="min-h-screen flex flex-col">
     <div class="navbar bg-base-100 shadow-lg">
       <div class="navbar-start">
-        <a href="/ui" class="btn btn-ghost text-xl" data-testid="home-action">
+        <a href="/" class="btn btn-ghost text-xl" data-testid="home-action">
           Line of Time project
         </a>
       </div>

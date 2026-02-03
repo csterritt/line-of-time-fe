@@ -4,8 +4,8 @@ import HomeView from '@/components/HomeView.vue'
 import AboutView from '@/components/AboutView.vue'
 
 const routes = [
-  { path: '/ui', component: HomeView },
-  { path: '/ui/about', component: AboutView },
+  { path: '/', component: HomeView },
+  { path: '/about', component: AboutView },
 ]
 
 const router = createRouter({
