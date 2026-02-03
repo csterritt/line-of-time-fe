@@ -31,7 +31,8 @@ trigger: always_on
 
 ## server and test running
 
-- run the server with 'npm run dev'
+- this project creates code that runs in the public directory of /home/sprite/line-of-time-api so to build this project when code changes, run the 'npm run build' command for this project, and then if there is no server running on port 3000, run the './go o' command-line script in the /home/sprite/line-of-time-api directory.
+- all URLs for this project will be mounted under '/ui' when the line-of-time-api server is running
 - run the tests with the following command:
   - npx playwright test
   - you can add specific tests by naming them after the 'npx playwright test' command
